@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.global{
+    width: 100%;
+
+}
+/**barra de navegacion para desktop**/
+.desktop{
+    width: 77%;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+    justify-content: center;
+}
+#logo{
+    margin: 5px 0 0 0;
+}
+.menu{
+    margin: 0 0 0 25%;
+    margin-right: auto;
+}
+#menuNav{
+    font-size: 18px;
+    cursor: pointer;
+    margin: 3% 0 0 0;
+}
+#menuNav ul{
+    display: inline-block;
+}
+#menuNav ul li{
+    display: inline-block;
+    text-align: center;
+}
+#menuNav ul li a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin: 0 30px 0 30px;
+    text-transform:uppercase;
+    color: black;
+}
+#log{
+    background: hsl(0, 94%, 66%);
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid hsl(0, 94%, 66%);
+    border-radius: 5px;
+}
+#log a{
+    color: white !important;
+}
+#log:hover{
+    background: white;
+    border: 2px solid hsl(0, 94%, 66%);
+    border-radius: 5px;
+    color: hsl(0, 94%, 66%);
+}
+#log a:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+#menuNav ul li a:hover{
+    color: hsl(0, 94%, 66%);
+}
+/**barra de navegacion para mobile**/
+.mobile{
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 14%;
+}
+#logo1{
+    margin: 5px 0 0 0 !important;
+    float: left !important;
+}
+#Svg{
+    margin: 2px 0 0 0 !important;
+    max-width: none;
+}
+#menuNav1{
+    font-size: 18px;
+    cursor: pointer;
+    margin: 6% 0 0 0;
+}
+.menu1{
+    margin: 0 5% 0 5% !important;
+    margin-left: 80% !important;
+}
+#menuNav1 #Svg{
+    display: inline-block !important;
+}
+#menuNav1 #Svg a{
+    display: inline-block !important;
+    position: relative !important;
+}
+/**diseño del contenido**/
+/**content-01**/
+.titule{
+    margin: 7% 0 0 10%;
+    width: 32%;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+.titule p{
+    color: hsl(229, 8%, 60%);
+}
+.imagen{
+    display: inline-block;
+    position: absolute;
+}
+.imagen img{
+    margin: 0 0 0 15% !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+.content-1{
+    margin: 25px 0 15px 0;
+    width: 100%;
+    height: 500px;
+}
+#button-1{
+    background: hsl(231, 69%, 60%) !important;
+    color: white !important;
+    border: 2px solid hsl(231, 69%, 60%);
+    margin: 10px;
+}
+#button-1:hover{
+    background: white !important;
+    color: hsl(231, 69%, 60%) !important;
+    border: 2px solid hsl(231, 69%, 60%);
+}
+#button-2{
+    border: 2px solid hsla(229, 8%, 60%, 0.123) !important;
+    background: rgb(245, 243, 243) !important;
+    color: black !important;
+    margin: 10px;
+}
+#button-2:hover{
+    border: 2px solid hsl(229, 7%, 48%) !important;
+    background: none !important;
+    color: hsl(230, 4%, 27%) !important;    
+}
+/**content-02**/
+.content-2{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+}
+.content-2 h2{
+    margin: 30px;
+}
+
+.uk-flex-center li a{
+    text-decoration: none !important;
+}
+.uk-tab>.uk-active > a {
+    border-color: hsl(0, 94%, 66%) !important;
+}
+.uk-margin-medium-top{
+   width: 100%;
+}
+.lol{
+    width: 86%;
+}
+.imag{
+    display: inline-block !important;
+    position: relative !important;
+    margin: 10px;
+}
+.imag img{
+    width: 120% !important;
+}
+.cont{
+    display: inline-block !important;
+    position: absolute;
+    margin: 12% 10% 0 5%;
+}
+.cont h1{
+    margin: 0 0 25px 0;
+}
+#aler{
+    display: inline-block;
+    background: rgba(49, 4, 252, 0.432);
+    border-radius: 5px;
+    width: 29%;
+    text-align: center;
+}
+#aler h5{
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+.content-3{
+    text-align: center !important;
+    margin: 5% 0 0 0;
+}
+#card{
+    margin-left: 15%;
+}
+
+.card{
+    margin: 12px !important;
+    border: 3px solid rgba(31, 30, 30, 0.034) !important;
+    border-radius: 10px !important;
+    font-family: 'Rubik', sans-serif !important;
+}
+.card svg{
+    margin: auto !important;
+}
+.card-body{
+    text-align: center !important;
+}
+.card-body a{
+    text-decoration: none !important;
+}
+.dow{
+    text-align: center;
+    font-family: 'Rubik', sans-serif !important;
+    width: 50%;
+    margin: auto;
+}
+#questions{
+    margin: auto;
+    text-align: center;
+    width: 32%;
+    padding: 7% 0 0 0;
+    font-family: 'Rubik', sans-serif !important;
+}
+#questions h1{
+    font-size: 32px;
+    margin: 0 0 10% 0;
+}
+#questions p{
+    margin: 0 0 10% 0;
+}
+.questions{
+    width: 55%;
+    margin: auto;
+}
+#boton{
+    width: 10%;
+    margin: auto;
+}
+.accordion-button:not(.collapsed) {
+    color: hsl(0, 94%, 66%) !important;
+}
+.botton{
+    border-radius: 3px;
+    border: 2px solid hsl(0, 94%, 66%);
+    width: 8%;
+    text-align: center;
+    height: 40px !important;
+    background: hsl(0, 94%, 66%);
+    color: white;
+    text-decoration: none;
+}
+.botton:hover{
+    border: 2px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+    background: white;
+    text-decoration: none;
+}
+.content-5{
+    background: hsl(231, 69%, 60%);
+    margin: 5% 0 0 0;
+    height: 350px;
+    padding: 5%;
+    font-family: 'Rubik', sans-serif !important;
+}
+#subtitulo{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+#subtitulo h5{
+    margin: 15px;
+    color: white;
+}
+#subtitulo h1{
+    color: white;
+}
+form{
+    margin: 2% !important;
+}
+.mb-3{
+    width: 20% !important;
+    display: inline-block !important;
+    margin-left: 35% !important;
+}
+footer{
+    background: hsl(229, 31%, 21%);
+}
+.footer{
+    display: inline-block !important;
+    position: relative;
+}
+.footer svg{
+    margin: 0 0 0 15px !important;
+}
+.men{
+    position: relative;
+    display: inline-block;
+}
+.men li{
+    display: inline-block;
+    position: relative;
+    margin: 18px;
+}
+.men a{
+    text-decoration: none;
+    color: white;
+}
+.men svg{
+    margin-left: 15% !important;
+}
+.modal-header{
+    display: initial !important;
+    position: relative; 
+    padding: 15% 5% 0 7% !important;
+}
+
+.modal-header #btn-close{
+    margin: 0 !important;
+    margin-left: 37% !important;
+}
+.modal-content{
+    background: hsla(230, 30%, 27%, 0.863) !important;
+}
+.modal-body{
+    width: 100% !important;
+    text-align: center !important;
+    border-bottom: 1px solid white;
+    height: 100px !important;
+}
+.modal-body a{
+    text-decoration: none !important;
+    text-align: center !important;
+    justify-content: center !important;
+    color: white;
+    line-height: 65px;
+}
+.modal-body a:hover{
+    color: hsl(0, 100%, 58%);
+}
+.modal-body button{
+    border: 2px solid white !important;
+    background: transparent !important;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+.modal-body button:hover{
+    border: 2px solid hsl(0, 94%, 66%) !important;
+    background: transparent !important;
+    border-radius: 5px;
+    color: hsl(0, 94%, 66%);
+}
+.icno{
+    margin: auto !important;
+    width:40% !important;
+}
+.icno svg{
+    margin: 15px ;
+}
+body{
+    padding-right: 0 !important;
+}
+.imag #ki{
+    width: 650px !important;
+}
+
+/**tamaños de mobile**/
+@media (min-width: 0px) and (max-width: 375px){
+    .desktop{
+        display: none;
+    }
+    .imagen{
+        margin: 0 !important;
+        position: relative;
+    }
+    .imagen img{
+        margin: 0 0 0 7% !important;
+    }
+    .titule{
+        width: 100%;
+        margin: 15px;
+    }
+    .titule h1{
+        text-align: center;
+        margin: 10px;
+    }
+    .titule p{
+        text-align: center;
+        margin: 10px;
+    }
+    #button-1{
+        font-size: 13px;
+        margin: 0 10px 0 10px;
+    }
+    #buttton{
+        margin: auto !important;
+        width: 80%;
+    }
+    #button-2{
+        font-size: 13px;
+        margin: 0;
+    }
+    .content-1{
+        height: 550px;
+    }
+    .content-2{
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .imag{
+        display: inline;
+        width: 115%;
+        margin: 0 !important;
+    }
+    .cont{
+        display: inline;
+        position: relative;
+        text-align: center;
+        margin: auto;
+    }
+    .lol{
+        margin: auto;
+    }
+    .uk-tab{
+        display: inline !important;
+    }
+    .uk-margin-medium-top{
+        margin-top: 15px !important;
+    }
+    #card{
+        margin: 0;
+    }
+    .card-body a{
+        width: 80% !important;
+    }
+    .row{
+        margin: 15% !important;
+    }
+    .dow{
+        width: 80%;
+        margin: auto;
+    }
+    .content-3{
+        margin: 30% 0 0 0;
+    }
+    #questions{
+        width: 100%;
+    }
+    .questions{
+        width: 100%;
+    }
+    #boton{
+        width: 50%;
+        margin-left: 33%;
+        padding: 10% 0 0 0;
+    }
+    .content-5{
+        height: auto;
+        width: 100%;
+    }
+    #subtitulo{
+        width: 100%;
+    }
+    .mb-3{
+        width: 50% !important;
+        margin: 0 !important;
+    }
+    .botton{
+        width: 40%;
+    }
+    .men{
+        display: inline;
+        padding: 0;
+        margin: auto  !important;
+    }
+    .men li{
+        display: block;
+        margin: 18px;
+    }
+    .footer{
+        margin-left: 30%;
+        text-align: center;
+    }
+}
+/**tamaños de desktop**/
+@media (min-width:376px) and (max-width: 1440px){
+    .mobile{
+        display: none;
+    }
+}
